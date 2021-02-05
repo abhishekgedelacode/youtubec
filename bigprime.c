@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int bigprime(int []);
+int bigprime(int[]);
 
 int main() 
 {
@@ -34,7 +34,7 @@ int bigprime(int n[10])
 
     for(i=0; i<10; i++)
     {
-        for(j=0; j<n[i]; j++)
+        for(j=1; j<=n[i]; j++)
         {
             if(n[i]%j == 0)
             {
