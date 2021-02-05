@@ -4,7 +4,7 @@ int bigprime(int []);
 
 int main() 
 {
-    int i, n[10];
+    int i, a, n[10];
 
     printf("\n enter 10 random numbers: ");
     for(i=0; i<10; i++)
